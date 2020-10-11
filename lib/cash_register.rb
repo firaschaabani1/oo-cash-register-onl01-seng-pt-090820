@@ -7,5 +7,6 @@ def intialize (cash_register)
 end
 def cash_register_with_discount
   CashRegister = new (20)
+  self.CashRegister
 end
   
