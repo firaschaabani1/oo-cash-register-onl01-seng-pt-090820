@@ -1,4 +1,7 @@
 def intialize (cash_register)
-  CashRegister = new
+  CashRegiste.new
 end
-def 
+def cash_register_with_discount
+  CashRegister.new (20)
+end
+  
