@@ -9,6 +9,7 @@ def intialize (prices)
 end
 
 def total (prices)
+  while price 
   puts self.price
   self.price += 1
 end
