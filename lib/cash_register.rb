@@ -26,3 +26,11 @@ def add_item(item_name, price, quantity = 1)
     @quantity.times{@items << item_name}
     @prices[item_name] = price
   end
+
+ def void_last_transaction
+    @total = @total - @prices[@items[-1]]
+    if @items == []
+      @total = @total - @total
+    end
+    @total = @total - (@prices[@items[-1]] * @quantity)
+  end
