@@ -8,8 +8,7 @@ def intialize (prices)
   price.new = price+1
 end
 
-def cash_register_with_discount
-  CashRegister = new (20)
-  self.CashRegister
+def total (prices)
+  self.price
 end
   
