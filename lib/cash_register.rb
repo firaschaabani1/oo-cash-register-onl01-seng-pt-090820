@@ -3,7 +3,7 @@ attr_accessor :total, :discount, :items, :prices
 attr_accessor :total, :discount, :items, :prices, :quantity
 
 
-def intialize (cash_register)
+def intialize (prices)
   CashRegiste = new
 end
 def cash_register_with_discount
