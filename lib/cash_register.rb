@@ -1,5 +1,4 @@
-
-
+class CashRegiste
 
 
 def intialize (cash_register)
